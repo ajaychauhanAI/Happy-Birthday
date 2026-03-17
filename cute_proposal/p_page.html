@@ -5,21 +5,18 @@
   <title>प्रेम</title>
   <style>
     
-html, body {
-  height: 100%;
-  margin: 0;
-}
-
 body {
   font-family: Arial, sans-serif;
-  min-height: 100vh;
-  overflow-x: hidden;
+  margin: 0;
+  height: 100vh;
+  overflow: hidden;
   text-align: center;
 
-  /* full image without crop */
-  background: url("bg2.jpg") no-repeat center center;
-  background-size: contain;
-  background-color: #ffd6e0; /* खाली space hide करने के लिए */
+  /* background image */
+  background-image: url("bg2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
     .container, .celebration, .letter-section {
       width: 100%;
